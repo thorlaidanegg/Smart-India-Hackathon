@@ -1,0 +1,40 @@
+.container {
+  background: linear-gradient(to right, #3494e6, #ec6ead);
+  animation: gradientAnimation 5s infinite alternate;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+    .container{
+    display: flex;
+    flex:6;
+    gap:40px;
+    .mains
+    {   
+        .title
+        {
+            font-size:90px;
+            padding-bottom: 70px;
+        }
+        .button
+        {
+            display: flex;
+            gap:90px;
+        }
+        margin: 250px 250px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lottie
+    {
+        width:1000px;
+        height: 1000px;
+    }
+}
